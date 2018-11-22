@@ -1,0 +1,51 @@
+body {
+  background-color: seagreen;
+  background-image: radial-gradient(darkseagreen, lightseagreen, seagreen);
+  color: white;
+}
+#title, #description {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 15px;
+}
+#description {
+  font-size: 15px;
+}
+footer {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+svg {
+/*  background-color: skyblue; */
+  opacity: 1;
+}
+.states {
+  stroke: lime;
+  fill: none;   /* **important** */
+}
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: left;
+  padding: 0px 8px;
+  font-size: 14px;
+  color: white;
+  background: dimgrey;
+  box-shadow: 0px 0px 2px;
+  border-radius: 3px;
+  pointer-events: none;
+  font-family: none;
+}
+a {
+  color: maroon
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
